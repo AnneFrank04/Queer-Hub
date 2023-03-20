@@ -1,0 +1,60 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Queer Hub                                                 Anne Frank#9750", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Multiuse Stuff")
+
+
+MainSection:NewButton("Unnamed ESP", "Executes Unnamed ESP", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+end)
+
+MainSection:NewButton("Aimbot (Fov)", "Activates Aimbot With FOV Circle", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ygp8Enye"))()
+end)
+
+MainSection:NewButton("Rizz Script", "Gets You Roblox Hoes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikhailramlal/Rizzer/main/main"))()
+end)
+
+MainSection:NewButton("Random Movement Hacks", "Pretty self explanatory", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+end)
+
+MainSection:NewButton("Redline Hub", "Activates Redline Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/Redline/main/beta.lua'))()
+end)
+
+
+--FRUIT
+local Fruit = Window:NewTab("BloxFruits")
+local FruitSection = Fruit:NewSection("Only For Blox Fruits")
+
+
+FruitSection:NewButton("Mukuro Hub", "Should Work (not 100% sure)", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+FruitSection:NewButton("Cracked Paid Script", "Sometimes doesnt work sorry if it doesnt", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Larinax999/leak/main/khemtitgamerHUB-BF.lua"))()
+end)
+
+FruitSection:NewButton("Pado Hub", "Not the best but a good backup", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+end)
+
+
+--KAT
+local KAT = Window:NewTab("KAT")
+local KATSection = KAT:NewSection("KAT scripts")
+
+KATSection:NewButton("Owl Hub", "Opens Owl hub menu", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+
+--INFO
+local Info = Window:NewTab("Information")
+local InfoSection = Info:NewSection("If you have any ideas or need help")
+local InfoSection = Info:NewSection("Message me on discord :)")
